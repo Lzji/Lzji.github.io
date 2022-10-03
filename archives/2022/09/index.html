@@ -253,7 +253,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="LiuZhangJin"
-      src="https://lzjandchj-1314165004.cos.ap-nanjing.myqcloud.com/%E5%9B%BE%E5%BA%8A/images/avatar.png#/images/avatar.gif">
+      src="https://lzjandchj-1314165004.cos.ap-nanjing.myqcloud.com/%E5%9B%BE%E5%BA%8A/images/avatar.png">
   <p class="site-author-name" itemprop="name">LiuZhangJin</p>
   <div class="site-description" itemprop="description">在等落叶，等寒风，等新年的烟火和更好的我们！</div>
 </div>
@@ -268,6 +268,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Lzji" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Lzji" rel="noopener" target="_blank"><i class="github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2201435753@qq.com" title="E-Mail → mailto:2201435753@qq.com" rel="noopener" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -289,7 +297,7 @@
 
 <div class="copyright">
   
-  &copy; 2022-10 – 
+  &copy; 
   <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -308,38 +316,6 @@
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
-
-<div>
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-<script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("10/01/2022 00:00:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
-</script>
-</div>
-
-<script>
-    // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
-    // 参考https://immmmm.com/valine-diy,用到jQuery
-    $(document).ready(function(){
-        //$('.vemoji-btn').text('😀');
-        $("#vcomments").on('click', 'span.vat',function(){
-            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
-            $('textarea#veditor').focus();
-        })
-    })
-</script>
 
 <script>
     //   自定义邮箱审核规则
@@ -362,6 +338,37 @@ setInterval("createtime()",250);
     })
 </script>
 
+<script>
+    // 点击回复直接评论,官方版本点击回复时都是跳回到页面上方的评论框进行回复，评论框是固定不动的
+    // 参考https://immmmm.com/valine-diy,用到jQuery
+    $(document).ready(function(){
+        //$('.vemoji-btn').text('😀');
+        $("#vcomments").on('click', 'span.vat',function(){
+            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+            $('textarea#veditor').focus();
+        })
+    })
+</script>
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("10/01/2022 00:00:00");//在此处修改你的建站时间
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
+</div>
 
         
 
@@ -430,7 +437,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       appId      : 'GjAq1WdaDw7IzR8hbfS4A5Ne-gzGzoHsz',
       appKey     : 'CKCHJnoNwfpAxqNRlgDUl9b5',
       placeholder: "Just go go",
-      avatar     : 'mm',
+      avatar     : 'identicon',
       meta       : guest,
       pageSize   : '10' || 10,
       visitor    : true,
