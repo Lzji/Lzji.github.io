@@ -3,15 +3,64 @@
     <id>http://lzjandchj.love</id>
     <title>LZJandCHJ</title>
     <link href="http://lzjandchj.love" />
-    <updated>2022-10-04T09:32:49.000Z</updated>
+    <updated>2022-10-06T05:15:44.000Z</updated>
+    <entry>
+        <id>http://lzjandchj.love/2022/10/06/%E6%B5%8B%E8%AF%95/</id>
+        <title>测试</title>
+        <link rel="alternate" href="http://lzjandchj.love/2022/10/06/%E6%B5%8B%E8%AF%95/"/>
+        <content type="html">&lt;h1 id=&#34;欢迎使用-Cmd-Markdown-编辑阅读器&#34;&gt;&lt;a href=&#34;#欢迎使用-Cmd-Markdown-编辑阅读器&#34; class=&#34;headerlink&#34; title=&#34;欢迎使用 Cmd Markdown 编辑阅读器&#34;&gt;&lt;/a&gt;欢迎使用 Cmd Markdown 编辑阅读器&lt;/h1&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;p&gt;我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，&lt;strong&gt;Cmd Markdown&lt;/strong&gt; 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;整理知识，学习笔记&lt;/li&gt;
+&lt;li&gt;发布日记，杂文，所见所想&lt;/li&gt;
+&lt;li&gt;撰写发布技术文稿（代码支持）&lt;/li&gt;
+&lt;li&gt;撰写发布学术论文（LaTeX 公式支持）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.zybuluo.com/static/img/logo.png&#34; alt=&#34;cmd-markdown-logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：&lt;/p&gt;
+&lt;h3 id=&#34;Windows-x2F-Mac-x2F-Linux-全平台客户端&#34;&gt;&lt;a href=&#34;#Windows-x2F-Mac-x2F-Linux-全平台客户端&#34; class=&#34;headerlink&#34; title=&#34;Windows&amp;#x2F;Mac&amp;#x2F;Linux 全平台客户端&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://www.zybuluo.com/cmd/&#34;&gt;Windows&amp;#x2F;Mac&amp;#x2F;Linux 全平台客户端&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 &lt;i class=&#34;icon-file&#34;&gt;&lt;/i&gt; &lt;strong&gt;新文稿&lt;/strong&gt; 或者使用快捷键 &lt;code&gt;Ctrl+Alt+N&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;什么是-Markdown&#34;&gt;&lt;a href=&#34;#什么是-Markdown&#34; class=&#34;headerlink&#34; title=&#34;什么是 Markdown&#34;&gt;&lt;/a&gt;什么是 Markdown&lt;/h2&gt;&lt;p&gt;Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong&gt;粗体&lt;/strong&gt; 或者 &lt;em&gt;斜体&lt;/em&gt; 某些文字，更棒的是，它还可以&lt;/p&gt;
+&lt;h3 id=&#34;1-制作一份待办事宜-Todo-列表&#34;&gt;&lt;a href=&#34;#1-制作一份待办事宜-Todo-列表&#34; class=&#34;headerlink&#34; title=&#34;1. 制作一份待办事宜 Todo 列表&#34;&gt;&lt;/a&gt;1. 制作一份待办事宜 &lt;a href=&#34;https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-%E5%BE%85%E5%8A%9E%E4%BA%8B%E5%AE%9C-todo-%E5%88%97%E8%A1%A8&#34;&gt;Todo 列表&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 支持以 PDF 格式导出文稿&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增 Todo 列表功能&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 修复 LaTex 公式渲染问题&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增 LaTex 公式编号功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-书写一个质能守恒公式-LaTeX&#34;&gt;&lt;a href=&#34;#2-书写一个质能守恒公式-LaTeX&#34; class=&#34;headerlink&#34; title=&#34;2. 书写一个质能守恒公式[^LaTeX]&#34;&gt;&lt;/a&gt;2. 书写一个质能守恒公式[^LaTeX]&lt;/h3&gt;&lt;h3 id=&#34;3-高亮一段代码-code&#34;&gt;&lt;a href=&#34;#3-高亮一段代码-code&#34; class=&#34;headerlink&#34; title=&#34;3. 高亮一段代码[^code]&#34;&gt;&lt;/a&gt;3. 高亮一段代码[^code]&lt;/h3&gt;&lt;pre class=&#34; language-python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;@requires_authorization
+&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;SomeClass&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;token keyword&#34;&gt;pass&lt;/span&gt;
+&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; __name__ &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;__main__&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;token comment&#34; spellcheck=&#34;true&#34;&gt;# A comment&lt;/span&gt;
+    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;hello world&#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;4-更详细语法说明&#34;&gt;&lt;a href=&#34;#4-更详细语法说明&#34; class=&#34;headerlink&#34; title=&#34;4. 更详细语法说明&#34;&gt;&lt;/a&gt;4. 更详细语法说明&lt;/h3&gt;&lt;p&gt;想要查看更详细的语法说明，可以参考我们准备的 &lt;a href=&#34;https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown&#34;&gt;Cmd Markdown 简明语法手册&lt;/a&gt;，进阶用户可以参考 &lt;a href=&#34;https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C&#34;&gt;Cmd Markdown 高阶语法手册&lt;/a&gt; 了解更多高级功能。&lt;/p&gt;
+&lt;p&gt;总而言之，不同于其它 &lt;em&gt;所见即所得&lt;/em&gt; 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。&lt;strong&gt;Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。&lt;/strong&gt; 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;什么是-Cmd-Markdown&#34;&gt;&lt;a href=&#34;#什么是-Cmd-Markdown&#34; class=&#34;headerlink&#34; title=&#34;什么是 Cmd Markdown&#34;&gt;&lt;/a&gt;什么是 Cmd Markdown&lt;/h2&gt;&lt;p&gt;您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一 ：）因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 &lt;strong&gt;编辑&amp;#x2F;发布&amp;#x2F;阅读&lt;/strong&gt; Markdown 的在线平台——您可以在任何地方，任何系统&amp;#x2F;设备上管理这里的文字。&lt;/p&gt;
+&lt;h3 id=&#34;1-实时同步预览&#34;&gt;&lt;a href=&#34;#1-实时同步预览&#34; class=&#34;headerlink&#34; title=&#34;1. 实时同步预览&#34;&gt;&lt;/a&gt;1. 实时同步预览&lt;/h3&gt;&lt;p&gt;我们将 Cmd Markdown 的主界面一分为二，左边为&lt;strong&gt;编辑区&lt;/strong&gt;，右边为&lt;strong&gt;预览区&lt;/strong&gt;，在编辑区的操作会实时地渲染到预览区方便查看最终的版面效果，并且如果你在其中一个区拖动滚动条，我们有一个巧妙的算法把另一个区的滚动条同步到等价的位置，超酷！&lt;/p&gt;
+&lt;h3 id=&#34;2-编辑工具栏&#34;&gt;&lt;a href=&#34;#2-编辑工具栏&#34; class=&#34;headerlink&#34; title=&#34;2. 编辑工具栏&#34;&gt;&lt;/a&gt;2. 编辑工具栏&lt;/h3&gt;&lt;p&gt;也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 &lt;strong&gt;编辑区&lt;/strong&gt; 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.zybuluo.com/static/img/toolbar-editor.png&#34; alt=&#34;tool-editor&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-编辑模式&#34;&gt;&lt;a href=&#34;#3-编辑模式&#34; class=&#34;headerlink&#34; title=&#34;3. 编辑模式&#34;&gt;&lt;/a&gt;3. 编辑模式&lt;/h3&gt;&lt;p&gt;完全心无旁骛的方式编辑文字：点击 &lt;strong&gt;编辑工具栏&lt;/strong&gt; 最右侧的拉伸按钮或者按下 &lt;code&gt;Ctrl + M&lt;/code&gt;，将 Cmd Markdown 切换到独立的编辑模式，这是一个极度简洁的写作环境，所有可能会引起分心的元素都已经被挪除，超清爽！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;再一次感谢您花费时间阅读这份欢迎稿，点击 &lt;i class=&#34;icon-file&#34;&gt;&lt;/i&gt; (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！&lt;/p&gt;
+&lt;p&gt;作者 &lt;a href=&#34;http://weibo.com/ghosert&#34;&gt;@ghosert&lt;/a&gt;&lt;br&gt;2016 年 07月 07日    &lt;/p&gt;
+</content>
+        <updated>2022-10-06T05:15:44.000Z</updated>
+    </entry>
     <entry>
         <id>http://lzjandchj.love/2022/10/04/%E7%BB%88%E4%BA%8E%E5%9C%A8%E4%B8%80%E8%B5%B7%E4%BA%86/</id>
         <title>终于在一起了</title>
         <link rel="alternate" href="http://lzjandchj.love/2022/10/04/%E7%BB%88%E4%BA%8E%E5%9C%A8%E4%B8%80%E8%B5%B7%E4%BA%86/"/>
-        <content type="html">&lt;h2 id=&#34;背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景&#34;&gt;#&lt;/a&gt; 背景&lt;/h2&gt;
-&lt;p&gt;我那个时候高考完刚出分，自己感觉考的还不错，发挥正常能考到这个分已经心满意足了，在填完志愿后的那个晚上，突然收到一条消息…&lt;br&gt;&lt;/p&gt;
+        <content type="html">&lt;h2 id=&#34;背景&#34;&gt;&lt;a href=&#34;#背景&#34; class=&#34;headerlink&#34; title=&#34;背景&#34;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;我那个时候高考完刚出分，自己感觉考的还不错，发挥正常能考到这个分已经心满意足了，在填完志愿后的那个晚上，突然收到一条消息…&lt;br&gt;&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-</content>
+
+&lt;h2 id=&#34;正文&#34;&gt;&lt;a href=&#34;#正文&#34; class=&#34;headerlink&#34; title=&#34;正文&#34;&gt;&lt;/a&gt;正文&lt;/h2&gt;</content>
         <updated>2022-10-04T09:32:49.000Z</updated>
     </entry>
 </feed>
